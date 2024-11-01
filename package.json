@@ -1,0 +1,44 @@
+{
+  "name": "motasem",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.22",
+    "aws-amplify": "^6.8.0",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.6.0",
+    "@aws-amplify/backend-cli": "^1.4.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.17.0",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/tsconfig": "^0.5.1",
+    "aws-cdk": "^2.165.0",
+    "aws-cdk-lib": "^2.165.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "npm-run-all2": "^7.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.6"
+  }
+}
